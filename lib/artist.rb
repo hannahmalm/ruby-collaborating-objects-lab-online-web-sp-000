@@ -14,7 +14,7 @@ class Artist
   
   #instances method receives an instance of a Song & associates it belongs to THIS Artist instance 
   def add_song(song)
-   @songs<<song 
+   @songs << song 
   end 
   
   def songs 
